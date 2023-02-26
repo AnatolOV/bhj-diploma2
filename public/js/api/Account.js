@@ -4,7 +4,6 @@ class Account extends Entity {
   static get(id = "", callback) {
     createRequest({
       method: "GET",
-      data,
       url: this.URL + id,
       callback,
     });
